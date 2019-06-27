@@ -37,6 +37,15 @@ main {
 	padding-top: 20vh;
 }
 
+.fa-angle-down {
+	-moz-transform: scale(2, 1);
+	-ms-transform: scale(2, 1);
+	-o-transform: scale(2, 1);
+	-webkit-transform: scale(2, 1);
+	transform: scale(2, 1);
+	font-size: 1.5em;
+}
+
 #form-string {
 	border: none;
 	border-bottom: 1px #222E50 solid;
