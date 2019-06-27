@@ -83,8 +83,14 @@ main {
 	color: white;
 }
 
+#task {
+	padding: 0.5vh 5vw;
+	background-color: #222E50;
+}
 
-
+#task-info-head {
+	text-decoration: underline;
+}
 
 
 /* FOOTER */
