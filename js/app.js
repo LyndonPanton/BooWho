@@ -6,6 +6,8 @@ window.onload = function(event) {
 	function check(value) {
 		if (value === "true" || value === "false") {
 			return display("Boolean");
+		} else if (value === "") {
+			return display("???");
 		}
 
 		return display("Not Boolean");
