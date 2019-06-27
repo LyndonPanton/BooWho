@@ -17,16 +17,23 @@ window.onload = function(event) {
 		document.getElementById("display").textContent = result;
 	}
 
-	function toggle() {
+	function toggle(element) {
 		let task = document.getElementsByTagName("div")[0];
+		let chevron = element;
 
 		if (Array.from(task.classList).indexOf("visible") === -1) {
 			console.log(2);
 			task.classList.remove("hidden");
+			chevron.classList.remove("fa-angle-down");
+
 			task.classList.add("visible");
+			chevron.classList.add("fa-angle-up");
 		} else {
 			task.classList.remove("visible");
+			chevron.classList.remove("fa-angle-up");
+
 			task.classList.add("hidden");
+			chevron.classList.add("fa-angle-down");
 		}
 	}
 
@@ -44,5 +51,7 @@ window.onload = function(event) {
 	});
 
 	let chevron = document.getElementsByClassName("fas")[0];
-	chevron.addEventListener("click", toggle);
+	chevron.addEventListener("click", function(event) {
+		toggle(this);
+	});
 };
