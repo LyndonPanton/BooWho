@@ -15,10 +15,10 @@
 > 1. This project requires a browser to run
 > 2. The browser must have JavaScript available and enabled
 
-## Extra Information
+## Extra Information
 > 1. This was done for one of freecodecamp's Basic Algorithm Scripting activities
 
-## Preview
+## Preview
 ![Screenshot 1](./img/screenshot1.png)
 ![Screenshot 2](./img/screenshot2.png)
 ![Screenshot 3](./img/screenshot3.png)
@@ -26,4 +26,3 @@
 ![Screenshot 5](./img/screenshot5.png)
 ![Screenshot 6](./img/screenshot6.png)
 ![Screenshot 7](./img/screenshot7.png)
-![Screenshot 8](./img/screenshot8.png)
