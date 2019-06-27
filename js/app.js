@@ -5,12 +5,14 @@ window.onload = function(event) {
 
 	function check(value) {
 		if (value === "true" || value === "false") {
-			return display("Boolean");
+			return display("true");
+			// return display("Boolean");
 		} else if (value === "") {
 			return display("???");
 		}
 
-		return display("Not Boolean");
+		return display("false");
+		// return display("Not Boolean");
 	}
 
 	function display(result) {
