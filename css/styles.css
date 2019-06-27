@@ -41,7 +41,7 @@ main {
 	display: none;
 }
 
-.fa-angle-down {
+.fas {
 	-moz-transform: scale(2, 1);
 	-ms-transform: scale(2, 1);
 	-o-transform: scale(2, 1);
@@ -49,7 +49,6 @@ main {
 	transform: scale(2, 1);
 	font-size: 1.5em;
 }
-
 
 .visible {
 	display: block;
