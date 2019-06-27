@@ -5,10 +5,14 @@ window.onload = function(event) {
 
 	function check(value) {
 		if (value === "true" || value === "false") {
-			return "Boolean";
+			return display("Boolean");
 		}
 
-		return "Not Boolean";
+		return display("Not Boolean");
+	}
+
+	function display(result) {
+		document.getElementById("display").textContent = result;
 	}
 
 	let form = document.getElementById("form");
