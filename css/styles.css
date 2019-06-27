@@ -37,6 +37,10 @@ main {
 	padding-top: 20vh;
 }
 
+.hidden {
+	display: none;
+}
+
 .fa-angle-down {
 	-moz-transform: scale(2, 1);
 	-ms-transform: scale(2, 1);
@@ -44,6 +48,11 @@ main {
 	-webkit-transform: scale(2, 1);
 	transform: scale(2, 1);
 	font-size: 1.5em;
+}
+
+
+.visible {
+	display: block;
 }
 
 #form-string {
@@ -75,13 +84,7 @@ main {
 	color: white;
 }
 
-#task {
-	display: none;
-}
 
-#task.visible {
-	display: block;
-}
 
 
 
