@@ -28,6 +28,43 @@ header {
 
 
 /* MAIN */
+input {
+	display: block;
+	margin: 0 auto 2vh;
+}
+
+main {
+	padding-top: 20vh;
+}
+
+#form-string {
+	border: none;
+	border-bottom: 1px #222E50 solid;
+	background-color: transparent;
+	font-family: monaco, Consolas, "Lucida Console", monospace;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#form-string::placeholder {
+	opacity: 0.5;
+	color: black;
+}
+
+#form-submit {
+	border: 2px blue solid;
+	border-radius: 6px;
+	padding: 1vh 4vw;
+	background-color: orange;
+	font-family: monaco, Consolas, "Lucida Console", monospace;
+	font-size: 1em;
+}
+
+#form-submit:active {
+	border-color: orange;
+	background-color: blue;
+	color: white;
+}
 
 
 
