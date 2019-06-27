@@ -66,6 +66,14 @@ main {
 	color: white;
 }
 
+#task {
+	display: none;
+}
+
+#task.visible {
+	display: block;
+}
+
 
 
 /* FOOTER */
